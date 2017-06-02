@@ -4,7 +4,7 @@ We hope you find exactly what you're looking for in a place to stay.
 
 <ul>
   {{#each model as |question|}}
-     <li>{{question.question}} By {{question.author}}, {{question.note}}</li>
+    {{question-tile question=question destroyQuestion="destroyQuestion"}}
   {{/each}}
 </ul>
 

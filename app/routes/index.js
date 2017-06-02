@@ -1,14 +1,13 @@
 import Ember from 'ember';
 
-var questions = [{
-  question: "What's the best programming language?",
-  author: "Ben Williams",
-  note: "Aspiring Ruby Dev",
-}]
-
 export default Ember.Route.extend({
   model(){
-    return questions;
+    return this.store.findAll('question');
+  },
+  actions: {
+    destroyQuestion(question) {
+      question.destroyRecord();
+      this.transitionTo('index');
+    }
   }
-
 });
