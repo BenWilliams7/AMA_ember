@@ -1,2 +1,7 @@
-<li>{{question.question}} By {{question.author}}, {{question.note}}</li>
-<button {{action 'delete' question}}>Delete Question</button>
+<li>
+  {{question.question}} By {{question.author}}, {{question.note}}
+
+  <!-- {{update-question question=question update="update"}} -->
+
+  <button {{action 'delete' question}}>Delete Question</button>
+</li>
