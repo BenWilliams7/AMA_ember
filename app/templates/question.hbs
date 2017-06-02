@@ -1,7 +1,7 @@
-
+<h2>More about: {{model.question}}</h2>
 
 <br>
-{{update-question question=model udate="update"}}
-{{question-detail question=model destroyQuestion="destroyQuestion"}}
+{{update-question question=model update="update"}}
+{{question-detail question=model destroyQuestion="destroyQuestion" destroyAnswer="destroyAnswer"}}
 
 {{new-answer saveAnswer="saveAnswer" question=model}}

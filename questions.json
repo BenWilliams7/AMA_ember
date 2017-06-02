@@ -10,5 +10,14 @@
     "ask": "Once in a Lifetime, What have I done?",
     "author": "Talking Heads",
     "note": "Stop making sense"
-  }]
+  }],
+  "answers": [{
+  "response": "yes!",
+  "author": "posi",
+  "type": "resp."
+}, {
+  "response": "no!",
+  "author": "anti",
+  "type": "rasp"
+}]
 }

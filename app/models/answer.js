@@ -4,5 +4,5 @@ export default DS.Model.extend({
   response: DS.attr(),
   author: DS.attr(),
   type: DS.attr(),
-  answer: DS.beolngsTo('question', { async: true })
+  question: DS.belongsTo('question', {async: true})
 });
