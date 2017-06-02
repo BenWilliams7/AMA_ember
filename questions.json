@@ -1,13 +1,13 @@
 { "questions": [{
-    "question": "Where is my mind?",
+    "ask": "Where is my mind?",
     "author": "The Pixies",
     "note": "music nut"
   }, {
-    "question": "Do You Realize?",
+    "ask": "Do You Realize?",
     "author": "Flaming Lips",
     "note": "music nut"
   }, {
-    "question": "Once in a Lifetime, What have I done?",
+    "ask": "Once in a Lifetime, What have I done?",
     "author": "Talking Heads",
     "note": "Stop making sense"
   }]
