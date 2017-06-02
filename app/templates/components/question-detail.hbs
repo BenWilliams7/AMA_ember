@@ -2,3 +2,10 @@
 <br>
 Questions and Answers for "{{question.ask}}" by {{question.author}}
 <br>
+
+<h2>Answers</h2>
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
