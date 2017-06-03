@@ -1,6 +1,6 @@
 ## Planning
 
-#### To-Dos:
+#### goals for project:
 
 1. Application template contains header with link(s).
 

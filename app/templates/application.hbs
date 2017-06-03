@@ -1,10 +1,28 @@
-<div class= "container">
-  <header class= "jumbotron">
-    <h1>Question and Answer Board</h1>
-  </header>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active">{{#link-to 'index'}}Home{{/link-to}}</li>
+      <li>{{#link-to 'about'}}About{{/link-to}}</li>
+      <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
+
+    </ul>
+  </div>
+</nav>
+<div id= "header">
+  <h1><strong>Asks and Answers</strong></h1>
+</div>
+<div class="container">
     {{outlet}}
+
+
   <hr>
-  <footer>
-    {{#link-to 'contact'}}Contact us for assistance!{{/link-to}}
-  </footer>
+  <div id="footer">
+    <a href="https://www.facebook.com/">Facebook</a>
+    <a href="https://twitter.com/?lang=en">Twitter</a>
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://www.linkedin.com/">LinkedIn</a>
+    <a href="https://www.youtube.com/">YouTube</a>
+    <a href="https://www.instagram.com/?hl=en">Instagram</a>
+    <a href="https://www.pinterest.com/">Pinterest</a>
+  </div>
 </div>
